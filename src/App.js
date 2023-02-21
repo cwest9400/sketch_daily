@@ -4,17 +4,13 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="bg-teal-900">
-      <Header />
-      <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-      <p className="text-3xl text-gray-700 font-bold mb-5">
-        Welcome!
-      </p>
-      <p className="text-gray-500 text-lg">
-        React and Tailwind CSS in action
-      </p>
-    </div>
-      <Footer />
+    <div className="min-h-0 flex-1 flex overflow-hidden">
+       <nav aria-label="Sidebar" class="narrow-sidebar hidden lg:block lg:flex-shrink-0 lg:bg-gray-800 lg:overflow-y-auto">
+       <div class="relative w-20 flex space-y-16 flex-col p-3">
+
+        </div>
+    </nav>
+
     </div>
   );
 }
